@@ -34,10 +34,11 @@ body, html{
   height: 22px;
   border-bottom: 1px solid transparent;
   transition: border-bottom 0.5s;
+  color: black;
 }
 
 .active-nav-link {
-  border-bottom: 1px solid black;
+  border-bottom: 1px black black;
 }
 
 .active-nav-link a {
@@ -45,7 +46,7 @@ body, html{
 }
 
 .nav-link-wrapper a {
-  color: white;
+  color: black;
   text-decoration: none;
   transition: color 0.5s;
 }
@@ -73,7 +74,7 @@ body, html{
 }
 
 .pimg1{
-  background-image:url(https://images.unsplash.com/photo-1531844251246-9a1bfaae09fc?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=2590&q=80);
+  background-image:url(https://cdn.glitch.com/4dd2a5da-e0bd-4f52-bfb6-bbed14678bb6%2FPlain-White-Wallpapers-Top-Free-Plain-White-Backgrounds-.jpg?v=1595761862469);
   min-height:100%;
 }
 
@@ -94,12 +95,26 @@ body, html{
 
 .section-light{
   background-color:#f4f4f4;
-  color:#666;
+  color:black;
+}
+
+.section-grey{
+  background-color: black;
+  color:white;
 }
 
 .section-dark{
   background-color: black;
-  color:#ddd;
+  color: white;
+}
+
+h2 a{
+  text-decoration: none;
+  color: black;
+}
+
+h2 a:hover{
+  color: grey;
 }
 
 .ptextZ{
@@ -126,6 +141,15 @@ body, html{
   background-color: black;
 }
 
+.btn:hover{
+  color:grey;
+}
+
+.darkh2{
+  eext-decoration: none;
+  color: white;
+}
+
 .ptext{
   position:absolute;
   top:50%;
@@ -140,7 +164,7 @@ body, html{
 .ptextZ .borderZ{
   background-color: white;
   color: black;
-  padding:0px;
+  padding:20px;
 }
 
 .ptext .border{
@@ -169,3 +193,21 @@ body, html{
   }
 }
 
+a {
+color: black;
+}
+
+#logo_text{
+  font-size: 200%;
+  margin:0;
+}
+
+#sublogo_text{
+  letter-spacing:0;
+  text-transform:none;
+  font-family: inter;
+}
+
+#learn_button{
+  border-radius:3%;
+}
